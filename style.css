@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* background-image: linear-gradient(to right bottom, #6878aa, #5792af, #71a6a7, #9cb5a6, #c1c3b6);
+    background-repeat:no-repeat;
+    background-size: 100rem 100rem; */
+    background-color: #FFF3C7;
+}
+.login{
+    position: relative;
+    top:20vh;
+    width: 50vb;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    /* backdrop-filter: blur(30px); */
+    background-color:#FEC7B4;
+    color: #F7418F;
+    
+}
+
+form{
+    display: flex;
+    height: 100%;
+    /* width: 100%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login h3{
+    font-size: 50px;
+    color: #F7418F;
+}
+form #username{
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: 0.1px solid #FC819E;
+    color: #F7418F;
+}
+#username::placeholder{
+    color: #F7418F;
+}
+form #password{
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    color: #F7418F;
+    border: 0.1px solid #FC819E;
+}
+#password::placeholder{
+    color: #F7418F;
+}
+form button{
+    background-color: #FC819E;
+    border: 0.1px solid #FC819E;
+    border-radius: 3px;
+
+}
+button:hover{
+    transform: scale(1.1);
+    /* background-color: #5d88ad; */
+    transition: all ease 0.2s;
+
+}
